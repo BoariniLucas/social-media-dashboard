@@ -1,7 +1,31 @@
+:root {
+    --white: #fff;
+    --bgColor1: #20222f;
+    --bgColor2: #1d2029;
+    --subTitleColor: #8d92b3;
+}
+
 body {
     font-family: 'Inter', sans-serif;
+    font-size: 14px;
     height: 100vh;
     width: 100%;
+    background-color: var(--bgColor2);
+}
+
+.totals {
+    padding: 3% 5%;
+}
+
+.totals h1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.totals a {
+    
+    color: var(--subTitleColor);
 }
 
 .container {
@@ -10,7 +34,7 @@ body {
     align-items: center;
 }
 
-.media-data {
+.container div {
     text-align: center;
     vertical-align: middle;
     height: 50px;
