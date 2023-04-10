@@ -1,3 +1,6 @@
+/*    ----Global definitions----    */
+/*              ----                */
+
 :root {
     --white: #fff;
     --bgDarkColor1: #20222f;
@@ -5,6 +8,13 @@
     --subTitleDarkColor: #8d92b3;
     --divInfDarkColor: #252b43;
     --faceColor: #1690f8;
+    --twitterColor: #2ca4ef;
+    --instaColor1: #fdc16d;
+    --instaColor2: #dd4e95;
+    --youTubeColor: #c0042b;
+    --upArrow: #1EB589;
+    --downArrow: #DC414C;
+
 }
 
 body {
@@ -15,41 +25,109 @@ body {
     background-color: var(--bgDarkColor2);
 }
 
-.totals {
+header {
+    height: 10em;
     padding: 3% 5%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: brown;
 }
 
-.totals h1 {
+header h1 {
     font-size: 25px;
     font-weight: bold;
     color: var(--white);
 }
 
-.totals a {
-    
+header a {    
     color: var(--subTitleDarkColor);
 }
 
+.totals {
+    position: absolute;
+    width: 100%;
+}
+
+
+/*    ----Start: total div pattern----    */
+/*                  ----                  */
+
 .container {
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
 
 .container div {
-    text-align: center;
-    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     height: 200px;
     width: 200px;
-    padding: 3%;
+    padding: 2%;
     margin: 1em 2em;
     border-radius: 5px;
     box-sizing: border-box;
+    color: var(--subTitleDarkColor);
     background-color: var(--divInfDarkColor);
 }
 
+.container div h1 {
+    font-weight: bold;    
+    font-size: 50px;
+    margin: 10px 10px 0 10px;
+    color: var(--white);
+}
+
+.container div img {
+    margin: 0 5px;
+}
+
+.container div span {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0 20px 15px 20px;
+}
+
+.container div a {
+    font-weight: bold;
+}
+
+/*                  ----                  */
+/*    ----End: total div pattern----    */
+
+
 .face-total {
-    display: flex;
-    align-items: center;
     border-top: solid var(--faceColor);
+}
+
+.face-total a {
+    color: var(--upArrow);
+}
+
+.twitter-total {   
+    border-top: solid var(--twitterColor);
+}
+
+.twitter-total a {
+    color: var(--upArrow);
+}
+
+.insta-total {   
+    border-top: solid;
+}
+
+.insta-total a {
+    color: var(--upArrow);
+}
+
+.youtube-total {   
+    border-top: solid var(--youTubeColor);
+}
+
+.youtube-total a {
+    color: var(--downArrow);
 }
