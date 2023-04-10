@@ -30,9 +30,9 @@ body {
 
 header {
     display: flex;
-    height: 10em;
+    height: 6em;
     justify-content: space-between;
-    padding: 3em 8em;
+    padding: 3em 8.5em 8em;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: var(--bgDarkColor1);

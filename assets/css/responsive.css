@@ -1,0 +1,47 @@
+@media screen and (max-width: 375px) {
+
+    header {
+        height: 5em;
+        padding: 2em 1em 5em 1em;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+
+    header h1 {
+        font-size: 20px;
+        margin-bottom: 0.3em;
+    }
+
+    .title {
+        width: 100%;
+        padding-bottom: 1em;
+        border-bottom: 1px solid var(--subTitleDarkColor);
+    }
+
+    .toggle-switch {
+        margin-top: 1em;
+    }
+
+    .toggle-switch a {
+        margin: 0 16em 0 0;
+    }
+
+    .totals {
+        margin-top: 9.5em;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .container div {
+        height: 210px;
+        width: 305px;
+        padding: 3em 5em;
+    }
+
+    .container div span {
+        margin: 0 55px 15px 55px;
+    }
+
+}
