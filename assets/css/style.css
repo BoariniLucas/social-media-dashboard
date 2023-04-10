@@ -1,8 +1,10 @@
 :root {
     --white: #fff;
-    --bgColor1: #20222f;
-    --bgColor2: #1d2029;
-    --subTitleColor: #8d92b3;
+    --bgDarkColor1: #20222f;
+    --bgDarkColor2: #1d2029;
+    --subTitleDarkColor: #8d92b3;
+    --divInfDarkColor: #252b43;
+    --faceColor: #1690f8;
 }
 
 body {
@@ -10,7 +12,7 @@ body {
     font-size: 14px;
     height: 100vh;
     width: 100%;
-    background-color: var(--bgColor2);
+    background-color: var(--bgDarkColor2);
 }
 
 .totals {
@@ -25,7 +27,7 @@ body {
 
 .totals a {
     
-    color: var(--subTitleColor);
+    color: var(--subTitleDarkColor);
 }
 
 .container {
@@ -37,8 +39,17 @@ body {
 .container div {
     text-align: center;
     vertical-align: middle;
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    width: 200px;
+    padding: 3%;
     margin: 1em 2em;
-    background-color: brown;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: var(--divInfDarkColor);
+}
+
+.face-total {
+    display: flex;
+    align-items: center;
+    border-top: solid var(--faceColor);
 }
