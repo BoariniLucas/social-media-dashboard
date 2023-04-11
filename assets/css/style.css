@@ -230,27 +230,27 @@ header a {
 /*                  ----                  */
 
 .today {
-    padding: 0 8.5em 0;
     margin-top: 11em;
 }
 
 .today h1 {
     font-size: 25px;
     font-weight: bold;
+    margin-left: 4.5em;
     color: var(--white);
 }
 
 .overview-today {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: center;
     align-items: center;
 }
 
-.overview-today div {
+.div-item {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     font-weight: bold;
     height: 150px;
     width: 230px;
@@ -262,8 +262,15 @@ header a {
     background-color: var(--divInfDarkColor);
 }
 
-.overview-today img {
-    margin-left: 6em;
+.div-item div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 4em;
+}
+
+.div-item h1 {
+    margin-left: 0;
 }
 
 .overview-today div h1 {
@@ -274,7 +281,7 @@ header a {
 }
 
 .overview-today a {
-    margin-left: 0.5em;
+    margin-left: 5px;
 }
 
 /*                 ----                 */
@@ -289,3 +296,26 @@ header a {
     color: var(--downArrow);
 }
 
+.insta-likes a {
+    color: var(--upArrow);
+}
+
+.insta-views a {
+    color: var(--upArrow);
+}
+
+.retweets a {
+    color: var(--upArrow);
+}
+
+.twitter-likes a {
+    color: var(--upArrow);
+}
+
+.youtube-likes a {
+    color: var(--downArrow);
+}
+
+.youtube-views a {
+    color: var(--downArrow);
+}
