@@ -45,7 +45,7 @@ header h1 {
 }
 
 header a {    
-    font-weight: bolder;
+    font-weight: bold;
     color: var(--subTitleDarkColor);
 }
 
@@ -56,7 +56,7 @@ header a {
 }
 
 .toggle-switch a {
-    font-weight: bolder;
+    font-weight: bold;
     margin: 0 1em;
 }
 
@@ -183,7 +183,7 @@ header a {
     font-weight: bold;
 }
 
-/*                  ----                  */
+/*                  ----                */
 /*    ----End: total div pattern----    */
 
 
@@ -225,3 +225,67 @@ header a {
 .youtube-total a {
     color: var(--downArrow);
 }
+
+/*    ----Start: today div pattern----    */
+/*                  ----                  */
+
+.today {
+    padding: 0 8.5em 0;
+    margin-top: 11em;
+}
+
+.today h1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.overview-today {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.overview-today div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: bold;
+    height: 150px;
+    width: 230px;
+    padding: 1.5em;
+    margin: 1em 2.5em;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: var(--subTitleDarkColor);
+    background-color: var(--divInfDarkColor);
+}
+
+.overview-today img {
+    margin-left: 6em;
+}
+
+.overview-today div h1 {
+    font-weight: bold;    
+    font-size: 30px;
+    margin-right: 1em;
+    color: var(--white);
+}
+
+.overview-today a {
+    margin-left: 0.5em;
+}
+
+/*                 ----                 */
+/*    ----End: today div pattern----    */
+
+
+.face-views a {
+    color: var(--upArrow);
+}
+
+.face-likes a {
+    color: var(--downArrow);
+}
+
