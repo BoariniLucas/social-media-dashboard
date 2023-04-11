@@ -44,4 +44,15 @@
         margin: 0 55px 15px 55px;
     }
 
+    .today {
+        margin-top: 66em;
+    }
+
+    .today h1 {
+        margin-left: 14px;
+    }
+
+    .div-item {
+        width: 305px;
+    }
 }

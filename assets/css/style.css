@@ -262,6 +262,11 @@ header a {
     background-color: var(--divInfDarkColor);
 }
 
+.div-item:hover {
+    cursor: pointer;
+    background-color: var(--divInfoDarkSelected);
+}
+
 .div-item div {
     display: flex;
     justify-content: space-between;
@@ -318,4 +323,11 @@ header a {
 
 .youtube-views a {
     color: var(--downArrow);
+}
+
+.attribution {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--white);
 }
