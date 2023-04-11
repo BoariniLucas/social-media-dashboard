@@ -3,6 +3,7 @@
 
 :root {
     --white: #fff;
+    --whiteToggle: #fff;
     --bgDarkColor1: #20222f;
     --bgDarkColor2: #1d2029;
     --subTitleDarkColor: #8d92b3;
@@ -109,7 +110,7 @@ header a {
     -webkit-transform: translateX(22px);
     -ms-transform: translateX(22px);
     transform: translateX(22px);
-    background-color: var(--white);
+    background-color: var(--whiteToggle);
   }
 
   .slider.round {
