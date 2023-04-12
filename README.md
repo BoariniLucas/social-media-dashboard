@@ -34,3 +34,10 @@ As tecnologias utilizadas para esse projeto são as listadas abaixo:
 - CSS custom properties
 - JavaScript
 
+### Link
+
+Abaixo estou deixando o link com o deploy do projeto para conseguir abrir e ver a resolução:
+
+- [E-commerce](https://social-media-dashboard-rho-henna.vercel.app/)
+
+
